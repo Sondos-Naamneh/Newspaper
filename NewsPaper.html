@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Sample newspaper layout with Full Stack and Data Analysis jobs.">
+  <meta name="keywords" content="news, jobs, full stack, data analysis">
+  <meta name="author" content="Times News">
+  <title>Times News - Tech Edition</title>
+  <style>
+    body {
+      font-family: Georgia, serif;
+      background-color: rgba(230, 222, 222, 0.74);
+      padding: 40px;
+      line-height: 1.6;
+    }
+    .newspaper {
+      max-width: 1000px;
+      margin: auto;
+      background-color: rgba(255, 255, 255, 0.74);
+      padding: 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      text-align: center;
+      font-size: 48px;
+      margin-bottom: 5px;
+      text-transform: uppercase;
+    }
+    .date {
+      text-align: center;
+      font-style: italic;
+      margin-bottom: 30px;
+      color: #555;
+    }
+    .columns {
+      display: flex;
+      gap: 20px;
+    }
+    .col {
+      flex: 1;
+    }
+    .headline {
+      font-size: 22px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    img {
+      width: 100%;
+      margin: 10px 0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    th, td {
+      border: 1px solid #aaa;
+      padding: 8px;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+
+<div class="newspaper">
+  <h1>Times News</h1>
+  <div class="date">July 20, 2025</div>
+
+  <div class="columns">
+    <!-- Column 1 -->
+    <div class="col">
+      <div class="headline">🚀 Tech Companies Hiring Full Stack Developers</div>
+      <p>
+        Several tech firms announced open positions for skilled <mark>Full Stack Developers</mark>. Applicants should be experienced with technologies like HTML, CSS, JavaScript, React, and Node.js.
+      </p>
+
+      <div class="headline">📈 Data Analysis Roles on the Rise</div>
+      <p>
+        Companies are increasingly investing in <b>data-driven strategies</b>. As a result, job openings for <mark>Data Analysts</mark> with skills in Python, Excel, and Power BI are growing rapidly.
+      </p>
+    </div>
+
+    <!-- Column 2 -->
+    <div class="col">
+      <div class="headline">🗂️ Job Listings</div>
+      <table>
+        <tr>
+          <th>Title</th>
+          <th>Location</th>
+        </tr>
+        <tr>
+          <td>Full Stack Developer</td>
+          <td>Remote / Riyadh</td>
+        </tr>
+        <tr>
+          <td>Data Analyst</td>
+          <td>Remote / Jeddah</td>
+        </tr>
+      </table>
+
+      <div class="headline">🖼️ Company Office</div>
+      <img src="https://via.placeholder.com/400x200" alt="Office Image">
+
+      <div class="headline">📬 Apply Now</div>
+      <p>
+        Email your CV to: <a href="mailto:jobs@techcareers.com">jobs@techcareers.com</a><br>
+        Deadline: <mark>July 31, 2025</mark>
+      </p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
